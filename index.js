@@ -104,12 +104,7 @@ function moveBackwards(rover){
       break;
   }
 }
-/*
-   | While using the includes method I had difficulty returning true for true statements. After reading the
-   | documentation, "The includes() method determines whether a string contains the characters of a specified string.
-   | This method returns true if the string contains the characters, and false if not." I realized I had the order
-   | reversed and was checking if the character contains the string.
- */
+
 function move(rover, commands){
    let temp = commands;
    for(let i = 0; i < temp.length; i++){
